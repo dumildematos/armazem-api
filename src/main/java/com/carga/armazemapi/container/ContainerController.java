@@ -9,6 +9,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("api/v1/container")
 @RequiredArgsConstructor
+@CrossOrigin
 public class ContainerController {
 
     private final ContainerService containerService;

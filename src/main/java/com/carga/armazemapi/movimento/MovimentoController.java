@@ -9,6 +9,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("api/v1/movimento")
 @RequiredArgsConstructor
+@CrossOrigin
 public class MovimentoController {
 
     private final MovimentoService movimentoService;
